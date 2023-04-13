@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" media="screen and (max-width:700px)" href="phone1.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contacts</a></li>
+            </ul>
+        </nav>
+        <section id="home">
+            <h1 class="heading">Hi, I am</h1>
+            <h1 class="heading"><span class="input"></span></h1>
+            <br>
+            <p>And, this is my portfolio</p>
+        </section>
+        <section id="about">
+            <h1 class="heading">About me</h1>
+            <div class="about">
+                <img src="photos/myphoto.jpeg" alt="My Pic">
+                <div class="name">
+                    <h2>Hi There!</h2>
+                    <p>My name is Srija Biswas and I am pursuing Computer Science and Engineering from Heritage Institute of Technology, Kolkata. I have some experience in Data Structures and Algorithms using Java, C++ and C. I have quite the grasp on the concepts and applications of Object Oriented Programming. I am also extensively into Web Development.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="education">
+            <h1 class="heading">Education</h1>
+            <div class="columns">
+                <div class="box">
+                    <h2>Madhyamik examination </h2>
+                    <p>The BSS School  - Percentage – 90.1%</p>
+                </div>
+                <div class="box">
+                    <h2>Higher Secondary Education </h2>
+                    <p>Delhi Public School, Ruby Park - Percentage – 93.4%</p>
+                </div>
+                <div class="box">
+                    <h2>Bachelors in Computer Science and Engineering</h2>
+                    <p>Heritage Institute of Technology - CGPA - 8.6</p>
+                </div>
+            </div>
+        </section>
+        <section id="skills">
+            <h1 class="heading">Skills</h1>
+            <div class="columns">
+                <div class="box_ts">
+                    <h2>Technical Skills</h2>
+                        <ul class="ul">
+                            <li>C</li>
+                            <li>C++</li>
+                            <li>Java</li>
+                            <li>DBMS</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                        </ul>
+                </div>
+                <div class="box">
+                    <h2>Achievements</h2>
+                    <p>Made a simple clone of YouTube from scratch.
+                        Tap on the YouTube icon to visit my website:
+                        <a href="https://glitchxsx.github.io/youtube-clone/">
+                            <img class="youtube" src="photos/youtube-logo.svg">
+                        </a>
+                    </p>
+                </div>
+                <div class="boxc">
+                    <h2>Certificates</h2>
+                    <p>Here are the certificates from the courses that I have completed:</p>
+                        <img class="certificate" src="photos/pointers_c_udemy_certificate.jpg">
+                        <img class="certificate" src="photos/java_udemy_certificate.jpg">
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h1 class="heading">Contacts</h1>
+            <div class="columns">
+                <div class="box_contact">
+                    <div class="phn">
+                        <img class="phn-icon" src="photos/phone.jpg">
+                        +918420462244
+                    </div>
+                    <div class="email">
+                        <img class="email-icon" src="photos/email-2.jpg">
+                        srijabiswas2001@gmail.com
+                    </div>
+                </div></div>
+        </section>
+        <script type="text/javascript" src="script.js"></script>
+        <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+        <script>
+            var typed = new Typed(".input",{
+                strings:["Srija Biswas."],
+                typeSpeed: 70,
+                backSpeed: 60,
+                loop: true
+            });
+        </script>
+    </body>
+</html>

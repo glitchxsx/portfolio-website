@@ -1,0 +1,104 @@
+.navbar ul li{
+    font-size: 0.9rem;
+}
+
+.heading{
+    font-size: 2.3rem;
+}
+
+.about{
+    flex-direction: column;
+}
+
+.about h2{
+    text-align: center;
+}
+
+.about img{
+    width: 150px;
+    height: 200px;
+    padding: 0px 15px;
+}
+
+.columns{
+    grid-template-columns: auto;
+    justify-content: center;
+}
+
+.name h2{
+    font-size: 1.3rem;
+}
+
+.name p{
+    font-size: 1rem;
+}
+
+.box{
+    height: 150px;
+    width: 270px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 10px;
+    padding: 10px;
+}
+
+.box h2{
+    color: yellowgreen;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+.box p{
+    color: white;
+    font-size: 1rem;
+}
+
+.box_ts{
+    height: 160px;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 10px;
+    padding: 15px;
+}
+
+.box_ts h2{
+    color: yellowgreen;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+.ul{
+    font-size: 0.9rem;
+}
+
+.boxc{
+    height: 280px;
+    width: 420px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 10px;
+    padding: 6px;
+    color: white;
+}
+
+.boxc h2{
+    color: yellowgreen;
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}
+
+.boxc p{
+    margin-bottom: 10px;
+}
+
+.certificate{
+    width: 200px;
+    height: 150px;
+}
+
+.box_contact{
+    height: 90px;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 10px;
+    padding: 20px;
+    color: white;
+}
