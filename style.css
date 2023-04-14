@@ -183,15 +183,15 @@ html{
     padding-left: 50px;
 }
 
-.box{
+.box_a{
     height: 200px;
-    width: 500px;
+    width: 400px;
     background-color: rgba(255, 255, 255, 0.1);
     margin: 10px;
     padding: 20px;
 }
 
-.box h2{
+.box_a h2{
     color: yellowgreen;
     font-size: 1.6rem;
     margin-bottom: 40px;
