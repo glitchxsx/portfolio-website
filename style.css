@@ -197,6 +197,9 @@ html{
     margin-bottom: 40px;
 }
 
+.box_a p{
+    color: white;
+}
 
 .youtube{
     width: 100px;
