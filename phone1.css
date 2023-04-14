@@ -2,6 +2,24 @@
     font-size: 0.8rem;
 }
 
+.navbar{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.navbar::before{
+    content: "";
+    position: absolute;
+    background-color: rgb(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
 .heading{
     font-size: 2.3rem;
 }
