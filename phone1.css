@@ -96,6 +96,11 @@
     padding: 10px;
 }
 
+.box_a p{
+    color: white;
+    font-size: 1rem;
+}
+
 .boxc{
     height: 280px;
     width: 380px;
@@ -107,7 +112,7 @@
 
 .boxc h2{
     color: yellowgreen;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     margin-bottom: 15px;
 }
 
@@ -128,8 +133,8 @@
     padding: 10px;
     color: white;
     
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: column;
 }
 
 .box_contact p{
