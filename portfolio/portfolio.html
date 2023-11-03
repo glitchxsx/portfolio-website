@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio website</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" media="screen and (max-width:700px)" href="phone1.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <link rel="stylesheet"
+            href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="./aos.css" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contacts</a></li>
+            </ul>
+        </nav>
+        <section id="home">
+            <h1 class="heading">Hi, I am</h1>
+            <h1 class="heading"><span class="input"></span></h1>
+            <br>
+            <p>And, this is my portfolio</p>
+        </section>
+        <section id="about">
+            <h1 class="heading">About me</h1>
+            <div class="about-me">
+                    <img class="my-image" src="./photos/myphoto.jpg" alt="My Pic">
+                <div class="name">
+                    <h2>Hi There!</h2>
+                    <p>My name is Srija Biswas and I am pursuing Computer Science and Engineering from Heritage Institute of Technology, Kolkata. I have some experience in Data Structures and Algorithms using Java, C++ and C. I have quite the grasp on the concepts and applications of Object Oriented Programming. I am also extensively into Web Development.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="education">
+            <h1 class="heading">Education</h1>
+            <div class="columns">
+                <div class="box">
+                    <h2>Madhyamik examination </h2>
+                    <p>The BSS School  - Percentage – 90.1%</p>
+                </div>
+                <div class="box">
+                    <h2>Higher Secondary Education </h2>
+                    <p>Delhi Public School, Ruby Park - Percentage – 93.4%</p>
+                </div>
+                <div class="box">
+                    <h2>Bachelors in Computer Science and Engineering</h2>
+                    <p>Heritage Institute of Technology - CGPA - 8.6</p>
+                </div>
+            </div>
+        </section>
+        <section id="skills">
+            <h1 class="heading">Skills</h1>
+            <div class="container" class="columns">
+                <div class="row">
+                    <div class="col">
+                        <div class="box_ts">
+                            <h2>Technical Skills</h2>
+                                <ul class="ul">
+                                    <li>C</li>
+                                    <li>C++</li>
+                                    <li>Java</li>
+                                    <li>DBMS</li>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>BOOTSTRAP</li>
+                                </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="box_a">
+                            <h2>Achievements</h2>
+                            <p>Made a simple clone of YouTube from scratch.
+                                Tap on the YouTube icon to visit my website:
+                                <a href="https://glitchxsx.github.io/youtube-clone/">
+                                    <img class="youtube" src="photos/youtube-logo.svg">
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="boxc" class="container-fluid">
+                            <h2>Certificates</h2>
+                            <p>Here are the certificates from the courses that I have completed:</p>
+                            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active" data-bs-interval="970">
+                                    <img src="photos/pointers_c_udemy_certificate.jpg" class="rounded mx-auto d-block w-75 img-fluid" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="photos/java_udemy_certificate.jpg" class="rounded mx-auto d-block w-75 img-fluid" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="photos/Ardent_Certificate_page-0001.jpg" class="rounded mx-auto d-block w-75 img-fluid" 
+                                    style="width: 200px; height:450px;" alt="...">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                  </button>
+                                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                  </button>
+                            </div>    
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h1 class="heading">Contacts</h1>
+            <div class="columns">
+                <div class="box_contact">
+                    <div class="phn">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZBJREFUSEu9lT8oR1EUxz/fTRQlBgab/FIMksGm/EmymGzKQoiREguRwehnlIViMyiZSBaDUgZZKKuFlERHV4/e7/o9/e774dab3r2fzznnvnOe+OOlP+bz/wIzc9IZoB6YkvRYTJY5GZhZObAD9ETQU6BD0ktaiS+4AJo82B4wIOktjcQXWAJkQ9LwbwiegNIE0KykpVCJn8El0JgA2ZfUV6xgGxjMA7kCOiXdFSsYBdY9yDnQJek+FO72+yWqA249UEaSyyDV+tbJZuY+y/4YbV7SQiq6n4GDmFkrcBYDPgOtktwH8LXMrAZYBQ4kbSYFkHcWmdkaMBY7dAN0S7qOgqgGjoFMtGdR0lw+SZKgBDgC2mKHXI8sA7vR0+wBs8CEpJxmTZymZlYFnAANAfXfAoYkvX6e+XFcm1lFFG1XgCQrabwgQVRvF8Qk4MZE0hiJ+1ckuXH/sQr+4ZiZu9hpwDVjWUJGh0BvfPIWLPgEmlklMAK0Ay1AbfTONWObpIe4PFgQcBdhJQoFB99BWsE71fhxGZQ5l84AAAAASUVORK5CYII="/>
+                        +918420462244
+                    </div>
+                    <div class="email">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAVhJREFUSEvtlT8vBUEUxX8HEQmFWhQKhUTpG0hUCi+hQaKiUSKh0lAoPIWG2p+ORqJT4huISkci8QUUvCtX5m3GZpl9K69709475zfnzJ1d0ealNuvTASQTziIys0ngGBgEToAtSR9JhdBgZjPADtALLEu69VIMeAGGIsE7YE7S618QM+sB9oD1qO9J0mgeYAVCb0BN0n0RxMxGgAtgIl+X9H342EERwHs8pk1JB7GImdWAU2CgCN4KoLn/ClgAPoFDYOWv6KoAXO8xuB5LXX5VQEo3q5cB3AB+0uGE6nNwNhX3lQHsA7vAOTD9C+QaWAS2gbVWAXVJG77JzFaBOtAXRN5dUNJRqHutOiCIjAOXATAr6aF5YjP7PyBA+n1MJbmDbJmZxxm/ZMrcQRZRanTKOvAH1BWJtQLIO2hI6s5/Ks6A+QhSFdDwyZO09AOQiqFqvfPLTCb3BXltkhkRDgYpAAAAAElFTkSuQmCC"/>
+                        srijabiswas2001@gmail.com
+                    </div>
+                </div></div>
+        </section>
+        <script type="text/javascript" src="script.js"></script>
+        <script src="./aos.js"></script>
+
+        <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+        <script>
+            var typed = new Typed(".input",{
+                strings:["Srija Biswas.", "a Web Developer.", "a Programmer."],
+                typeSpeed: 70,
+                backSpeed: 60,
+                loop: true
+            });
+        </script>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" 
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" 
+        integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+    </body>
+</html>
